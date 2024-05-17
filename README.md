@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) starter kit that uses [NextAuth.js](htt
 
 You can clone & deploy it to Vercel with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)]([![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicoalbanese%2Fbuild-an-ai-app-starter&env=OPENAI_API_KEY))
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicoalbanese%2Fbuild-an-ai-app-starter&env=OPENAI_API_KEY)
 
 ## Developing Locally
 
