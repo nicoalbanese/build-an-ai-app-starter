@@ -18,19 +18,20 @@ npx create-next-app nextjs-typescript-starter --example "https://github.com/verc
 
 ## Getting Started
 
-First, run the development server:
+First, create a Postgres instance and run the following code:
+
+```bash
+CREATE TABLE IF NOT EXISTS "User" (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(64) NOT NULL,
+  password VARCHAR(64) NOT NULL
+);
+```
+
+Finally, run the development server:
 
 ```bash
 pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
