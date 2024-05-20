@@ -55,18 +55,14 @@ export default function Page() {
         </div>
         <div className="flex space-x-3">
           <Link
-            href="/protected"
+            href="/chat"
             className="text-stone-400 underline hover:text-stone-200 transition-all"
           >
-            Protected Page
+            Chat!
           </Link>
           <p className="text-white">·</p>
-          <a
-            href="https://vercel.com/templates/next.js/prisma-postgres-auth-starter"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-stone-400 underline hover:text-stone-200 transition-all"
-          >
+          <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicoalbanese%2Fbuild-an-ai-app-starter&env=OPENAI_API_KEY">
+            <img src="https://vercel.com/button" alt="Deploy with Vercel" />
             Deploy to Vercel
           </a>
         </div>
